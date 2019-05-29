@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activities.MenuActivity"
+    android:orientation="vertical"
+    android:background="@drawable/otrologin"
+    android:paddingTop="50sp"
+    android:paddingHorizontal="45sp"
+    >
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:id="@+id/listar"
+        android:textColor="@color/white"
+        android:text="MODIFICAR"
+        android:background="@color/grey"
+        android:layout_marginBottom="20sp"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:id="@+id/crear"
+        android:textColor="@color/white"
+        android:text="Crear"
+        android:background="@color/grey"
+        android:layout_marginBottom="20sp"
+        />
+
+
+
+</LinearLayout>

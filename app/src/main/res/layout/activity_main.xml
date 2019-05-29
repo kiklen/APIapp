@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/otrologin"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingHorizontal="35sp"
+    android:paddingTop="50sp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="Iniciar Sesion"
+        android:layout_marginTop="30sp"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:maxLines="3" />
+
+    <TextView
+        android:id="@+id/usuarioText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/usuario"
+        android:layout_alignRight="@+id/usuario"
+        android:layout_below="@+id/usuario"
+        android:text="Usuario"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:ignore="DuplicateIds" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:maxLines="3" />
+
+    <TextView
+        android:id="@+id/passText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/pass"
+        android:layout_alignRight="@+id/pass"
+        android:layout_below="@+id/pass"
+        android:text="Password"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/ingresar"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:background="@color/cyan"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="40sp"
+        android:text="Ingresar"/>
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/registro"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:layout_marginTop="40sp"
+        android:text="Registrarse"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activities.CreateActivity"
+    android:orientation="vertical"
+    android:background="@drawable/otrologin"
+    android:paddingTop="150sp"
+    android:paddingHorizontal="45sp"
+    >
+
+    <EditText
+        android:id="@+id/materia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textMultiLine"
+        android:lines="2"
+        android:maxLines="2" />
+
+    <TextView
+        android:id="@+id/materiaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/materia"
+        android:layout_alignRight="@+id/materia"
+        android:layout_below="@+id/materia"
+        android:text="Materia"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/semestre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textMultiLine"
+        android:lines="2"
+        android:maxLines="2" />
+
+    <TextView
+        android:id="@+id/semestreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/semestre"
+        android:layout_alignRight="@+id/semestre"
+        android:layout_below="@+id/semestre"
+        android:text="Semestre"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:id="@+id/guardar"
+        android:textColor="@color/white"
+        android:text="Guardar"
+        android:background="@color/grey"
+        android:layout_marginTop="20sp"/>
+
+
+
+</LinearLayout>
